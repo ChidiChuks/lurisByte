@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8">
+    <title>lurisByte | Digital Community for Legal Professionals - Home</title>
+
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="lurisByte - Multipurpose Bootstrap Template">
+    <meta name="keywords" content="bootstrap, business, legal agency, construction, services, e-commerce, mobile app showcase, multipurpose, shop, ui kit, marketing, seo, landing, html5, css3, javascript, gallery, slider, touch, creative">
+    <meta name="author" content="lurisByte Web Application">
+
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="../../assets/vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
+    <link rel="stylesheet" media="screen" href="../../assets/vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="../../assets/vendor/tiny-slider/dist/tiny-slider.css"/>
+
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="../../assets/css/demo/online-courses/theme.min.css">
+    
+    <!-- Page loading styles-->
+    <style>
+      .cs-page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .cs-page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .cs-page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .cs-page-loading.active > .cs-page-loading-inner {
+        opacity: 1;
+      }
+      .cs-page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #787a80;
+      }
+      .cs-page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        background-color: #cfcfd1; 
+        border-radius: 50%;
+        opacity: 0;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      @keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+    </style>
+
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.cs-page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+    </script>
+
+    <!-- Demo switcher off-canvas toggle styles -->
+    <style>
+      .cs-demo-switcher {
+        position: fixed;
+        display: block;
+        top: 50%;
+        right: 1rem;
+        z-index: 100;
+      }
+      .cs-demo-switcher-inner {
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid #e5e8ed;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #1e212c;
+        font-size: 1.25rem;
+        line-height: 3rem;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0px 10px 15px 0px rgba(30,33,44,0.10);
+      }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  </head>
+
+  <!-- Body-->
+  <body>
+    
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+
+    <!-- Page loading spinner-->
+    <div class="cs-page-loading active">
+      <div class="cs-page-loading-inner">
+        <div class="cs-page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+
+    <!-- Main content-->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="cs-page-wrapper position-relative">
+
+
+      
+
+
+      <!-- Demo switcher off-canvas toggle -->
+      <!-- <a href="#" class="cs-demo-switcher" data-toggle="offcanvas" data-target="demo-switcher">
+        <div class="cs-demo-switcher-inner" data-toggle="tooltip" data-placement="left" title="Choose Demo">
+          <i class="cxi-layouts"></i>
+        </div>
+      </a> -->
+
+
+      <!-- Sign in modal-->
+      <div class="modal fade" id="modal-signin" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content border-0">
+
+            <!-- Sign in form -->
+            <div class="cs-view show" id="modal-signin-view">
+              <div class="modal-header border-0 pb-0 px-md-5 px-4 d-block position-relative">
+                <h3 class="modal-title mt-4 mb-0 text-center">Sign in</h3>
+                <button type="button" class="close position-absolute" style="top: 1.5rem; right: 1.5rem;" data-dismiss="modal" aria-label="Close">
+                  <i class="cxi-cross" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="modal-body px-md-5 px-4">
+                <p class="font-size-sm text-muted text-center">Sign in to your account using email and password provided during registration.</p>
+                <form class="needs-validation" novalidate>
+                  <div class="form-group">
+                    <label for="signin-email">Email</label>
+                    <input type="email" class="form-control" id="signin-email" placeholder="Your email address" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="signin-password" class="form-label" >Password</label>
+                    <div class="cs-password-toggle input-group-overlay">
+                      <input type="password" class="form-control appended-form-control" id="signin-password" placeholder="Your password" required>
+                      <div class="input-group-append-overlay">
+                        <label class="btn cs-password-toggle-btn input-group-text">
+                          <input type="checkbox" class="custom-control-input">
+                          <i class="cxi-eye cs-password-toggle-indicator"></i>
+                          <span class="sr-only">Show password</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center form-group">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="remember-me" checked>
+                      <label for="remember-me" class="custom-control-label">Remember me</label>
+                    </div>
+                    <a href="#" class="font-size-sm text-decoration-none" style="color: #2463FF !important">Forgot password?</a>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-hover-shadow btn-block" style="background-color: #2463FF !important; border-color: #2463FF !important;">Sign in</button>
+                  <p class="font-size-sm pt-4 mb-0">
+                    Don't have an account?
+                    <a href="#" class="font-weight-bold text-decoration-none" data-view="#modal-signup-view" style="color: #2463FF !important">Sign up</a>
+                  </p>
+                </form>
+              </div>
+            </div>
+
+            <!-- Sign up form -->
+            <div class="cs-view" id="modal-signup-view">
+              <div class="modal-header border-0 pb-0 px-md-5 px-4 d-block position-relative">
+                <h3 class="modal-title mt-4 mb-0 text-center">Sign up</h3>
+                <button type="button" class="close position-absolute" style="top: 1.5rem; right: 1.5rem;" data-dismiss="modal" aria-label="Close">
+                  <i class="cxi-cross" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="modal-body px-md-5 px-4">
+                <p class="font-size-sm text-muted text-center"> Create an account with us as a qualified legal practitioner for registration. </p>
+                <form class="needs-validation" novalidate>
+                  <div class="form-group">
+                    <label for="signup-name">Full name</label>
+                    <input type="text" class="form-control" id="signup-name" placeholder="Your full name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" class="form-control" id="signup-email" placeholder="Your email address" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="signup-email">Practicing licence number</label>
+                    <input type="email" class="form-control" id="signup-email" placeholder="Your practicing licence number" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="signup-email">Year of accreditation</label>
+                    <input type="email" class="form-control" id="signup-email" placeholder="Your years of accreditation" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="signup-password" class="form-label">Password</label>
+                    <div class="cs-password-toggle input-group-overlay">
+                      <input type="password" class="form-control appended-form-control" id="signup-password" placeholder="Your password" required>
+                      <div class="input-group-append-overlay">
+                        <label class="btn cs-password-toggle-btn input-group-text">
+                          <input type="checkbox" class="custom-control-input">
+                          <i class="cxi-eye cs-password-toggle-indicator"></i>
+                          <span class="sr-only">Show password</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="signup-confirm-password" class="form-label">Confirm password</label>
+                    <div class="cs-password-toggle input-group-overlay">
+                      <input type="password" class="form-control appended-form-control" id="signup-confirm-password" placeholder="Confirm your password" required>
+                      <div class="input-group-append-overlay">
+                        <label class="btn cs-password-toggle-btn input-group-text">
+                          <input type="checkbox" class="custom-control-input">
+                          <i class="cxi-eye cs-password-toggle-indicator"></i>
+                          <span class="sr-only">Show password</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="cs-password-toggle input-group-overlay">
+                      <a href="#"><h5>Face Photo</h5></a>
+                      <div class="input-group-append-overlay">
+                        <label class="btn cs-password-toggle-btn input-group-text">
+                          <input type="checkbox" class="custom-control-input">
+                          <!-- <i class="cxi-eye cs-password-toggle-indicator"></i> -->
+                          <span class="sr-only">Show password</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="cs-password-toggle input-group-overlay">
+                      <a href="#"><h5>Name of practice/firm (if applicable) </h5></a>
+                      <div class="input-group-append-overlay">
+                        <label class="btn cs-password-toggle-btn input-group-text">
+                          <input type="checkbox" class="custom-control-input">
+                          <!-- <i class="cxi-eye cs-password-toggle-indicator"></i> -->
+                          <span class="sr-only">Show password</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary btn-hover-shadow btn-block" type="submit" style="background-color: #2463FF !important; border-color: #2463FF !important">Sign up</button>
+                  <p class="font-size-sm pt-4 mb-0">Already have an account?
+                    <a href="#" class="font-weight-bold text-decoration-none" data-view="#modal-signin-view" style="color: #2463FF !important">Sign in</a>
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="modal-body text-center px-0 pt-2 pb-4">
+              <hr>
+              <p class="font-size-sm text-heading mb-3 pt-4">Or sign in with</p>
+              <a href="#" class="social-btn mx-1 mb-2" data-toggle="tooltip" title="Facebook">
+                <i class="cxi-facebook"></i>
+              </a>
+              <a href="#" class="social-btn mx-1 mb-2" data-toggle="tooltip" title="Google">
+                <i class="cxi-google"></i>
+              </a>
+              <a href="#" class="social-btn mx-1 mb-2" data-toggle="tooltip" title="Twitter">
+                <i class="cxi-twitter"></i>
+              </a>
+              <a href="#" class="social-btn mx-1 mb-2" data-toggle="tooltip" title="LinkedIn">
+                <i class="cxi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Navbar -->
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
+      <header class="cs-header navbar navbar-expand-lg navbar-light navbar-sticky navbar-floating">
+        <div class="container px-0 px-xl-3">
+          <a class="navbar-brand order-lg-1 mr-lg-5 mr-0 pr-lg-2" href="index.html">
+            <img src="../../assets/img/luteBtes_logo.png" alt="lurisByte Logo" width="130">
+          </a>
+          <div class="d-flex align-items-center order-lg-3">
+            <a class="btn btn-gradient btn-hover-shadow d-sm-inline-block d-none ml-4" href="#">Get consultation</a>
+            <a href="#modal-signin" data-toggle="modal" data-view="#modal-signin-view" class="btn-link d-lg-inline-block d-none ml-4 text-decoration-none text-nowrap">
+              <i class="cxi-profile mt-n1 mr-2 lead align-middle"></i>
+              Sign in / up
+            </a>
+            <button class="navbar-toggler ml-1 mr-n3" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <nav class="collapse navbar-collapse order-lg-2" id="navbarCollapse1">
+            <ul class="navbar-nav mr-auto text-nowrap">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Legal Grid</a></li>
+                  <li><a class="dropdown-item" href="#">Individual Case</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Events</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Events List</a></li>
+                  <li><a class="dropdown-item" href="#">Events Grid</a></li>
+                  <li><a class="dropdown-item" href="#">Event Single</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                  <li><a class="dropdown-item" href="#">Single Post</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              <li class="nav-item d-lg-none d-block">
+                <a href="#modal-signin" data-toggle="modal" data-view="#modal-signin-view" class="nav-link text-decoration-none">
+                  <i class="cxi-profile mt-n1 mr-2 lead align-middle"></i>
+                  Sign in / up
+                </a>
+              </li>
+              <li class="nav-item d-sm-none d-block">
+                <a class="btn btn-sm btn-gradient btn-hover-shadow m-3" href="#">Get consultation</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+      <!-- Page content-->
+      <!-- Hero-->
+      <section class="d-flex min-vh-100 mb-lg-6 mb-5 pt-lg-6 pt-5 jarallax" data-jarallax data-speed="0.8" style="background-color: #f9dcd4;">
+        <div class="container d-flex flex-column justify-content-between">
+          <div class="row align-items-center h-100">
+            <div class="col-xl-5 col-md-6 order-md-1 order-2 mr-xl-auto text-md-left text-center">
+              <div class="mb-4">
+                <a src="https://youtu.be/rLy4IwD8F1k" class="cs-video-btn mr-3" data-gallery-video></a>
+                <span class="font-size-sm font-weight-bold text-dark">Play ByteWorks</span>
+              </div>
+              <h1 class="display-2 mb-md-5 mb-3 pb-3"><div style="color: #2463FF;">Having a Problem?</div> Let’s Handle it for you Legally </h1>
+              <a href="#" class="btn btn-lg btn-outline-primary btn-hover-shadow mb-3 mr-sm-4 mr-2 px-md-5 px-4">About us</a>
+              <a href="#" class="btn btn-lg btn-gradient btn-hover-shadow mb-3 px-md-5 px-4">Explore services</a>
+            </div>
+            <div class="col-md-6 col-sm-10 order-md-2 order-1 mx-md-0 mx-auto mb-md-0 mb-5">
+              <img src="../../assets/img/online-courses/home/hero/illustration.svg" alt="Illustration">
+            </div>
+          </div>
+          <div class="mb-md-5 py-4">
+            <ul class="d-md-flex d-none align-items-center justify-content-between flex-md-nowrap flex-wrap list-unstyled">
+              <li class="d-flex flex-lg-row flex-column align-items-center mb-md-0 mb-4 text-dark text-nowrap">
+                <span class="h1 mb-lg-0 mb-1 mr-lg-2">1200</span>
+                Clients at our Service
+              </li>
+              <li class="d-md-block d-none font-size-sm text-primary">&bull;</li>
+              <li class="d-flex flex-lg-row flex-column align-items-center mb-md-0 mb-4 text-dark text-nowrap">
+                <span class="h1 mb-lg-0 mb-1 mr-lg-2">84</span>
+                Completed Cases
+              </li>
+              <li class="d-md-block d-none font-size-sm text-primary">&bull;</li>
+              <li class="d-flex flex-lg-row flex-column align-items-center mb-md-0 mb-4 text-dark text-nowrap">
+                <span class="h1 mb-lg-0 mb-1 mr-lg-2">16</span>
+                Qualified Legal Practitioners
+              </li>
+              <li class="d-md-block d-none font-size-sm text-primary">&bull;</li>
+              <li class="d-flex flex-lg-row flex-column align-items-center mb-md-0 mb-4 text-dark text-nowrap">
+                <span class="h1 mb-lg-0 mb-1 mr-lg-2">7</span>
+                High Profile Cases
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="jarallax-img" style="background-image: url(../../assets/img/online-courses/home/hero/bg.png);"></div>
+      </section>
+
+
+      <!-- About -->
+      <section class="pt-lg-5 pt-4 pb-lg-6 pb-5 bg-no-repeat bg-position-center bg-size-contain" style="background-image: url(https://createx.createx.studio/assets/img/online-courses/home/shapes/01-about.svg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 mr-auto mb-md-0 mb-4 pb-md-0 pb-3">
+              <img src="../../assets/img/online-courses/home/about2.png" alt="About" class="rounded">
+            </div>
+            <div class="col-lg-4 col-md-5">
+              <h3 class="h6 mb-2 text-uppercase">Who we are</h3>
+              <h2 class="h1 mb-4 pb-lg-3">Why lurisByte?</h2>
+              <ul class="list-unstyled mb-0">
+                <li class="d-flex mb-2 pb-1">
+                  <i class="cxi-check mt-1 mr-3 text-primary"></i>
+                  We Choose the Right Lawyer
+                </li>
+                <li class="d-flex mb-2 pb-1">
+                  <i class="cxi-check mt-1 mr-3 text-primary"></i>
+                  We Identify Your Legal Problem
+                </li>
+                <li class="d-flex mb-2 pb-1">
+                  <i class="cxi-check mt-1 mr-3 text-primary"></i>
+                  We Make Sure the Attorney has the Right Experience
+                </li>
+                <li class="d-flex mb-2 pb-1">
+                  <i class="cxi-check mt-1 mr-3 text-primary"></i>
+                  We Expect the Attorney to be a Good Communicator
+                </li>
+                <li class="d-flex mb-2 pb-1">
+                  <i class="cxi-check mt-1 mr-3 text-primary"></i>
+                  We Consider the Attorney's Professionalism
+                </li>
+                <li class="d-flex mb-2 pb-1">
+                  <i class="cxi-check mt-1 mr-3 text-primary"></i>
+                  We Use an Attorney Familiar with Your Region
+                </li>
+                <li class="d-flex mb-2 pb-1">
+                  <i class="cxi-check mt-1 mr-3 text-primary"></i>
+                  We Clarify Responsibility for Your Case
+                </li>
+              </ul>
+              <a href="#" class="btn btn-gradient btn-hover-shadow mt-lg-5 mt-4">More about us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Courses -->
+      <section class="container pt-lg-5 pt-4 pb-5">
+        <h3 class="h6 mb-2 text-uppercase">Ready to use?</h3>
+        <div class="d-flex align-items-center justify-content-between mb-lg-5 mb-4 pb-md-2">
+          <h2 class="h1 mb-0">Featured Lawyers</h2>
+          <div class="d-sm-block d-none">
+            <a href="#" class="btn btn-lg btn-outline-primary btn-hover-shadow">View all Legal Professionals</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-grid-gutter">
+            <a href="#" class="card card-horizontal card-hover box-shadow cs-heading-highlight">
+              <div class="card-img-top bg-position-center-top" style="background-image: url(../../assets/img/online-courses/courses/curator/01.jpg);"></div>
+              <div class="card-body">
+                <span class="badge badge-success mb-3 font-size-sm">Full Biography</span>
+                <h3 class="card-title mb-3 py-1">The Prestigious Oputa Panel</h3>
+                <div class="text-muted">
+                  <span class="font-weight-bold text-primary">NGN 50,000</span>
+                  <span class="text-border px-1">|</span>
+                   Benjamin Chuks
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 mb-grid-gutter">
+            <a href="#" class="card card-horizontal card-hover box-shadow cs-heading-highlight">
+              <div class="card-img-top bg-position-center-top" style="background-image: url(../../assets/img/online-courses/courses/curator/02.jpg);"></div>
+              <div class="card-body">
+                <span class="badge badge-info mb-3 font-size-sm">Full Biography</span>
+                <h3 class="card-title mb-3 py-1">Product Legal Management </h3>
+                <div class="text-muted">
+                  <span class="font-weight-bold text-primary">NGN 50,000</span>
+                  <span class="text-border px-1">|</span>
+                   Nkiruka Amadi
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 mb-grid-gutter">
+            <a href="#" class="card card-horizontal card-hover box-shadow cs-heading-highlight">
+              <div class="card-img-top bg-position-center-top" style="background-image: url(../../assets/img/online-courses/courses/curator/03.jpg);"></div>
+              <div class="card-body">
+                <span class="badge badge-warning mb-3 font-size-sm">Full Biography</span>
+                <h3 class="card-title mb-3 py-1">Legal HR  Management and Analytics</h3>
+                <div class="text-muted">
+                  <span class="font-weight-bold text-primary">NGN 50,000</span>
+                  <span class="text-border px-1">|</span>
+                   David Nnaga
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 mb-grid-gutter">
+            <a href="#" class="card card-horizontal card-hover box-shadow cs-heading-highlight">
+              <div class="card-img-top bg-position-center-top" style="background-image: url(../../assets/img/online-courses/courses/curator/04.jpg);"></div>
+              <div class="card-body">
+                <span class="badge badge-success mb-3 font-size-sm">Full Biography</span>
+                <h3 class="card-title mb-3 py-1">Legal Brand Management & PR Communications</h3>
+                <div class="text-muted">
+                  <span class="font-weight-bold text-primary">NGN 50,000</span>
+                  <span class="text-border px-1">|</span>
+                  Lucy Gawanu
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 mb-grid-gutter">
+            <a href="#" class="card card-horizontal card-hover box-shadow cs-heading-highlight">
+              <div class="card-img-top bg-position-center-top" style="background-image: url(../../assets/img/online-courses/courses/curator/05.jpg);"></div>
+              <div class="card-body">
+                <span class="badge badge-info mb-3 font-size-sm">Full Biography</span>
+                <h3 class="card-title mb-3 py-1">Legal Business Development Management</h3>
+                <div class="text-muted">
+                  <span class="font-weight-bold text-primary">NGN 50,000</span>
+                  <span class="text-border px-1">|</span>
+                   Emeka Kenneth
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 mb-grid-gutter">
+            <a href="#" class="card card-horizontal card-hover box-shadow cs-heading-highlight">
+              <div class="card-img-top bg-position-center-top" style="background-image: url(../../assets/img/online-courses/courses/curator/06.jpg);"></div>
+              <div class="card-body">
+                <span class="badge mb-3 font-size-sm text-light" style="background-color: #F52F6E;">Full Biography</span>
+                <h3 class="card-title mb-3 py-1">Legal Corporate Criminology & Prosecution</h3>
+                <div class="text-muted">
+                  <span class="font-weight-bold text-primary">NGN 50,000</span>
+                  <span class="text-border px-1">|</span>
+                   Ada Maduga
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-sm-none d-block py-3 text-center">
+          <a href="#" class="btn btn-lg btn-outline-primary">View all Legal Professionals</a>
+        </div>
+      </section>
+
+
+      <!-- Benefits -->
+      <section class="container pt-lg-5 pt-4 pb-lg-6 pb-5">
+        <h3 class="h6 mb-2 text-uppercase text-sm-center">Our benefits</h3>
+        <h2 class="h1 mb-lg-5 pb-md-2 text-sm-center">That’s how we do it</h2>
+        <div data-simplebar data-simplebar-auto-hide="false">
+          <ul class="nav nav-tabs nav-fill flex-nowrap mb-3 text-nowrap" role="tablist">
+            <li class="nav-item">
+              <a href="#experienced-tutors" class="nav-link active" id="experienced-tutors-tab" data-toggle="tab" role="tab" aria-controls="experienced-tutors" aria-selected="true">
+                <i class="cxi-star align-middle mt-n1 mr-2"></i>
+                Experienced Legal Tutors
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#feedback-support" class="nav-link" id="feedback-support-tab" data-toggle="tab" role="tab" aria-controls="feedback-support" aria-selected="false">
+                <i class="cxi-like align-middle mt-n1 mr-2"></i>
+                Feedback &amp; Support
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#online-library" class="nav-link" id="online-library-tab" data-toggle="tab" role="tab" aria-controls="online-library" aria-selected="false">
+                <i class="cxi-layouts align-middle mt-n1 mr-2"></i>
+                24/7 Online Support
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#community" class="nav-link" id="community-tab" data-toggle="tab" role="tab" aria-controls="community" aria-selected="false">
+                <i class="cxi-chat align-middle mt-n1 mr-2"></i>
+                Community
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content mt-md-4 mt-3 pt-3">
+          <div class="tab-pane fade show active" id="experienced-tutors" role="tabpanel" aria-labelledby="experienced-tutors-tab">
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-sm-6 order-sm-1 order-2 mr-auto">
+                <h3 class="h2 mb-md-4 mb-3">Only practicing Legal tutors</h3>
+                <p class="mb-0">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
+              </div>
+              <div class="col-sm-6 order-sm-2 order-1 mb-sm-0 mb-4 pb-sm-0 pb-2">
+                <img src="https://createx.createx.studio/assets/img/online-courses/home/benefits/01.svg" alt="Experienced Tutors">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="feedback-support" role="tabpanel" aria-labelledby="feedback-support-tab">
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-sm-6 order-sm-1 order-2 mr-auto">
+                <h3 class="h2 mb-md-4 mb-3">Always in touch, ready to support</h3>
+                <p>Faucibus erat massa elementum nec fermentum augue. Ante pellentesque dis et malesuada mauris, faucibus est et a. Gravida malesuada ut varius eu pretium vitae eu. Volutpat nullam posuere eget felis at dui neque. Neque vitae, pulvinar donec integer lacus, fermentum, faucibus. Lorem porttitor hendrerit vel interdum arcu arcu mollis massa. Velit nulla felis ornare elit a platea malesuada.</p>
+              </div>
+              <div class="col-sm-6 order-sm-2 order-1 mb-sm-0 mb-4 pb-sm-0 pb-2">
+                <img src="https://createx.createx.studio/assets/img/online-courses/home/benefits/02.svg" alt="Feedback &amp; Support">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="online-library" role="tabpanel" aria-labelledby="online-library-tab">
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-sm-6 order-sm-1 order-2 mr-auto">
+                <h3 class="h2 mb-md-4 mb-3">The most carefully selected Legal Professionals</h3>
+                <p>Senectus magnis diam tellus nibh elit ac ac. Elit eget faucibus urna, feugiat arcu mattis viverra tempor id. Vivamus nunc quam donec non amet nulla etiam ullamcorper posuere. Venenatis commodo molestie eleifend nulla faucibus in. In sed felis adipiscing pharetra, etiam. Molestie euismod consectetur eu sed. Sit magnis sed sed ipsum vulputate pellentesque nullam faucibus.</p>
+              </div>
+              <div class="col-sm-6 order-sm-2 order-1 mb-sm-0 mb-4 pb-sm-0 pb-2">
+                <img src="https://createx.createx.studio/assets/img/online-courses/home/benefits/03.svg" alt="24/7 Online Library">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="community" role="tabpanel" aria-labelledby="community-tab">
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-sm-6 order-sm-1 order-2 mr-auto">
+                <h3 class="h2">Legal Education Communication</h3>
+                <p>Eu placerat magna elementum nulla egestas id. Non sit enim tortor massa id tristique vel tincidunt sit. Tellus, ridiculus dictum purus nibh sed bibendum. In eleifend ac convallis convallis lectus. Urna semper ac non eros, donec accumsan egestas ipsum. Arcu at morbi.</p>
+              </div>
+              <div class="col-sm-6 order-sm-2 order-1 mb-sm-0 mb-4 pb-sm-0 pb-2">
+                <img src="../../assets/img/online-courses/home/benefits/04.svg" alt="Community">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Events -->
+      <section class="py-lg-5 py-4 bg-faded-primary jarallax" data-jarallax data-speed="0.8">
+        <div class="jarallax-img" style="background-image: url(../../assets/img/online-courses/home/event-bg.png);"></div>
+        <div class="container py-4">
+          <h3 class="h6 mb-2 text-uppercase text-sm-center">Our events</h3>
+          <h2 class="h1 mb-lg-5 pb-md-2 text-sm-center">Lectures &amp; workshops</h2>
+
+          <!-- Card horizontal -->
+          <div class="card card-horizontal border-0 mb-4 px-sm-5">
+            <div class="card-header flex-shrink-0 my-sm-4 ml-sm-n2 py-sm-2 px-sm-0 border-0">
+              <div class="d-flex">
+                <span class="display-4 mb-0 text-primary" style="font-size: 3rem; color: #2463FF !important">11</span>
+                <div class="ml-3 pl-1">
+                  <h6 class="h5 mb-1">January</h6>
+                  <span class="text-muted">11:00 – 14:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body m-sm-4 py-sm-2 py-0 px-sm-3">
+              <h3 class="h5 mb-sm-1 mb-2">
+                <a href="#" class="nav-link">Formation of the organizational structure of the company in the face of uncertainty.</a>
+              </h3>
+              <span class="text-muted">Onine Meeting</span>
+            </div>
+            <div class="card-footer flex-shrink-0 my-sm-4 mt-5 mr-sm-n2 py-sm-2 px-sm-0 border-0">
+              <a href="#" class="btn btn-outline-primary btn-hover-shadow d-sm-inline-block d-block">View more</a>
+            </div>
+          </div>
+
+          <!-- Card horizontal -->
+          <div class="card card-horizontal border-0 mb-4 px-sm-5">
+            <div class="card-header flex-shrink-0 my-sm-4 ml-sm-n2 py-sm-2 px-sm-0 border-0">
+              <div class="d-flex">
+                <span class="display-4 mb-0 text-primary" style="font-size: 3rem; color: #2463FF !important">11</span>
+                <div class="ml-3 pl-1">
+                  <h6 class="h5 mb-1">January</h6>
+                  <span class="text-muted">11:00 – 14:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body m-sm-4 py-sm-2 py-0 px-sm-3">
+              <h3 class="h5 mb-sm-1 mb-2">
+                <a href="#" class="nav-link">Formation of the organizational structure of the company in the face of uncertainty.</a>
+              </h3>
+              <span class="text-muted">Onine Meeting</span>
+            </div>
+            <div class="card-footer flex-shrink-0 my-sm-4 mt-5 mr-sm-n2 py-sm-2 px-sm-0 border-0">
+              <a href="#" class="btn btn-outline-primary btn-hover-shadow d-sm-inline-block d-block">View more</a>
+            </div>
+          </div>
+
+          <!-- Card horizontal -->
+          <div class="card card-horizontal border-0 mb-4 px-sm-5">
+            <div class="card-header flex-shrink-0 my-sm-4 ml-sm-n2 py-sm-2 px-sm-0 border-0">
+              <div class="d-flex">
+                <span class="display-4 mb-0 text-primary" style="font-size: 3rem; color: #2463FF !important">11</span>
+                <div class="ml-3 pl-1">
+                  <h6 class="h5 mb-1">January</h6>
+                  <span class="text-muted">11:00 – 14:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body m-sm-4 py-sm-2 py-0 px-sm-3">
+              <h3 class="h5 mb-sm-1 mb-2">
+                <a href="#" class="nav-link">Formation of the organizational structure of the company in the face of uncertainty.</a>
+              </h3>
+              <span class="text-muted">Onine Meeting</span>
+            </div>
+            <div class="card-footer flex-shrink-0 my-sm-4 mt-5 mr-sm-n2 py-sm-2 px-sm-0 border-0">
+              <a href="#" class="btn btn-outline-primary btn-hover-shadow d-sm-inline-block d-block">View more</a>
+            </div>
+          </div>
+
+          
+          <h4 class="h3 pt-sm-4 pt-3 mb-0 text-center">
+            Do you want more?
+            <a href="#" class="btn btn-lg btn-gradient btn-hover-shadow d-sm-inline-block d-block mt-sm-0 mt-4 ml-sm-4">Explore all events</a>
+          </h4>
+        </div>
+      </section>
+
+      
+      <!-- Subscribe -->
+      <section class="py-lg-6 py-md-5 py-4 bg-faded-primary bg-no-repeat bg-position-center-bottom bg-size-contain" style="background-image: url(../../assets/img/online-courses/home/hero/bg.png);">
+        <div class="container pt-md-4 pt-3 pb-md-5 pb-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+              <h3 class="h6 mb-2 text-uppercase text-center">Don’t miss anything</h3>
+              <h2 class="h1 mb-lg-5 pb-md-2 text-center">Subscribe to the lurisByte announcements</h2>
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-10">
+              <form class="input-group">
+                <input class="form-control rounded bg-light" type="email" placeholder="Your working email">
+                <div class="input-group-append">
+                  <button class="btn btn-gradient btn-hover-shadow ml-md-4 ml-sm-3 ml-2 rounded" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="cs-footer pt-sm-5 pt-4 bg-dark">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 order-lg-1 order-1 mb-lg-0 mb-4">
+            <a class="d-inline-block mb-4" href="index.html">
+              <img src="../../assets/img/online-courses/logo-icon.png" width="130" alt="lurisByte logo">
+            </a>
+            <!-- <p class="mb-sm-4 mb-3 pb-lg-3 font-size-xs text-light opacity-60">lurisByte is a leader in online legal services. We have lots of services and programs. We provide relevant approaches to professional legal services, for the largest companies in the country.</p> -->
+            <!-- <a href="#" class="social-btn mr-1 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-facebook"></i>
+            </a>
+            <a href="#" class="social-btn mr-1 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-twitter"></i>
+            </a>
+            <a href="#" class="social-btn mr-1 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-youtube"></i>
+            </a>
+            <a href="#" class="social-btn mr-1 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-telegram"></i>
+            </a>
+            <a href="#" class="social-btn mr-1 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-instagram"></i>
+            </a>
+            <a href="#" class="social-btn mb-1 mt-md-0 mt-sm-1">
+              <i class="cxi-linkedin"></i>
+            </a> -->
+          </div>
+          <div class="col-lg-2 col-sm-12 col-6 order-lg-2 order-sm-4 order-1 mb-lg-0 mb-4">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Site map</h3>
+            <ul class="nav nav-light flex-lg-column flex-sm-row flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">About Us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Services</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Events</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Blog</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-12 col-6 order-lg-3 order-sm-5 order-2 mb-lg-0 mb-4">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Services</h3>
+            <ul class="nav nav-light flex-lg-column flex-sm-row flex-column">
+              <li class="nav-item mb-2">
+                <a href="courses.html" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">About Us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="courses.html" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Services</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="courses.html" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Events</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="courses.html" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Blog</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="courses.html" class="nav-link mr-lg-0 mr-sm-4 p-0 font-weight-normal">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 order-lg-4 order-sm-3 order-3 mb-md-0 mb-4">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Contact us</h3>
+            <ul class="nav nav-light flex-md-column flex-sm-row flex-column">
+              <li class="nav-item mb-2">
+                <a href="tel:(+234)813 626 6387" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal text-nowrap">
+                  <i class="cxi-iphone mr-2"></i>
+                  (+234)813 626 6387
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="mailto:hello@lurisbyte.com" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal text-nowrap">
+                  <i class="cxi-chat mr-2"></i>
+                  hello@lurisbyte.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 order-lg-5 order-sm-2 order-4 mb-sm-0 mb-4">
+            <h3 class="h6 mb-2 pb-1 text-uppercase text-light">Sign up to our newsletter</h3>
+            <form>
+              <div class="input-group-overlay input-group-light form-group mb-2 pb-1">
+                <input class="form-control appended-form-control" type="text" placeholder="Email address*">
+                <div class="input-group-append-overlay">
+                  <span class="input-group-text">
+                    <button class="btn btn-link bt-sm px-0" type="submit">
+                      <i class="cxi-arrow-right lead mt-n1"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+              <small class="form-text font-size-xxs text-light">*Subscribe to our newsletter to receive early discount offers, updates and new products info.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div style="background-color: #292C37;">
+        <div class="container py-2">
+          <div class="d-flex align-items-sm-center justify-content-between py-1">
+            <div class="font-size-xs text-light">
+              <span class="d-sm-inline d-block mb-1">
+                <span class="font-size-sm">&copy; </span>
+                All rights reserved.
+              </span>
+              Made with 
+              <i class="cxi-heart mt-n1 mx-1 font-size-base text-primary align-middle" style="color: #2463FF !important;"></i>
+              <a href="#" class="text-light" target="_blank" rel="noopener noreferrer">by Chidiebere Chukwuma</a>
+            </div>
+            <div class="d-flex align-items-sm-center">
+              <span class="d-sm-inline-block d-none text-light font-size-sm mr-3 mb-1 align-vertical">Back to top</span>
+              <a class="btn-scroll-top position-static rounded" href="#top" style="background-color: #2463FF !important;" data-scroll>
+                <i class="btn-scroll-top-icon cxi-angle-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Vendor scripts: js libraries and plugins-->
+    <script src="../../assets/vendor/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../../assets/vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="../../assets/vendor/lg-video.js/dist/lg-video.min.js"></script>
+    <script src="../../assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="../../assets/vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="../../assets/vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+
+    <!-- Main theme script-->
+    <script src="../../assets/js/theme.min.js"></script>
+  </body>
+
+</html>
